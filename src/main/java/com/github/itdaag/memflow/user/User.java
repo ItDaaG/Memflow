@@ -21,4 +21,8 @@ public final class User {
     public String getUserName() {
         return userName;
     }
+
+    public void addSubject(Subject subject) {
+        subjects.add(subject);
+    }
 }

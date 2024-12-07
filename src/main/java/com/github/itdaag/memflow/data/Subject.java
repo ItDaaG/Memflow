@@ -19,4 +19,9 @@ public final class Subject {
     public List<Note> getNotes() {
         return notes;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
